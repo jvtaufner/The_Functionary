@@ -1,0 +1,30 @@
+# For more details on the format and content:
+# https://github.com/robocorp/rcc/blob/master/docs/recipes.md#what-is-in-robotyaml
+
+tasks:	
+  Generate random imputs:
+    shell: python tasks1.py
+  
+  Search for the corresponding news list:
+    shell: python tasks2.py
+
+
+  Extract and fill Excel file:
+    shell: python tasks3.py
+    
+
+devTasks: {}
+
+environmentConfigs:
+  - environment_windows_amd64_freeze.yaml
+  - environment_linux_amd64_freeze.yaml
+  - environment_darwin_amd64_freeze.yaml
+  - conda.yaml
+
+ignoreFiles:
+  - .gitignore
+artifactsDir: output
+PATH:
+  - .
+PYTHONPATH:
+  - .

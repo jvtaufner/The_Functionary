@@ -1,0 +1,57 @@
+[
+  {
+      "payload": {
+        "sections": [
+          "Astrology",
+          "Business",
+          "Crosswords & Games",
+          "Entertainment",
+          "Lifestyle",
+          "Personal Finance",
+          "Photos",
+          "Preview",
+          "Promotions",
+          "Real State",
+          "News",
+          "Metro",
+          "Page Six",
+          "Sports",
+          "Sports Video",
+          "Opinion",
+          "Shopping",
+          "Media",
+          "Tech",
+          "Video"
+        ],
+        "search_phrase": [
+          "COVID-19 updates",
+          "Climate change news",
+          "2022 Midterm Elections",
+          "Stock market update",
+          "Technology trends",
+          "Entertainment news",
+          "Travel restrictions",
+          "Sports scores",
+          "Education reform",
+          "Healthcare policy",
+          "International relations",
+          "Business and economy",
+          "Cultural events in NYC",
+          "Celebrity gossip",
+          "Breaking news today",
+          "Opinion and editorials",
+          "Science and innovation",
+          "Arts and culture",
+          "Book reviews",
+          "Environmental issues",
+          "Race and social justice",
+          "Immigration policy",
+          "Women's rights",
+          "Technology privacy",
+          "Education funding"
+        ],
+        "n_months": 0
+      },
+      "files": {}
+  }
+]
