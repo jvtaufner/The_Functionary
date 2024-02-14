@@ -20,7 +20,7 @@ class Step2:
 
         try:
             browser_lib.open_available_browser(
-                self.url, browser_selection="chrome", maximized=True)
+                self.url, browser_selection="headlesschrome")
         except Exception as e:
             print("eh aq?!")
             print(e)
