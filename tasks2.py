@@ -22,6 +22,7 @@ class Step2:
             browser_lib.open_available_browser(
                 self.url, browser_selection="chrome", maximized=True)
         except Exception as e:
+            print("eh aq?!")
             print(e)
             browser_lib.close_all_browsers()
 
